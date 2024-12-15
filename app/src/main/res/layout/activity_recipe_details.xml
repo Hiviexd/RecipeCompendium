@@ -17,7 +17,9 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleMarginStart="16dp"
-            app:expandedTitleMarginBottom="16dp">
+            app:expandedTitleMarginBottom="16dp"
+            app:expandedTitleTextColor="@color/white"
+            app:collapsedTitleTextColor="@color/white">
 
             <ImageView
                 android:id="@+id/recipeImage"
@@ -51,7 +53,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:textColor="?attr/colorPrimary"/>
+                android:textColor="@color/white"
+                android:background="@drawable/orange_rounded_background"
+                android:padding="8dp"/>
 
             <TextView
                 android:id="@+id/descriptionText"
@@ -100,6 +104,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:layout_anchor="@id/appBarLayout"
-        app:layout_anchorGravity="bottom|end"/>
+        app:layout_anchorGravity="bottom|end" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

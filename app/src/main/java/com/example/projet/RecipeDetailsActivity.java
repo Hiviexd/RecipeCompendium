@@ -1,5 +1,6 @@
 package com.example.projet;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
@@ -11,6 +12,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.example.projet.models.Recipe;
 import android.content.res.ColorStateList;
 import android.view.Gravity;
+import android.graphics.drawable.GradientDrawable;
 
 public class RecipeDetailsActivity extends AppCompatActivity {
     private Recipe recipe;
@@ -29,6 +31,8 @@ public class RecipeDetailsActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(recipe.getName());
+        // Set title text color to white
+        toolbar.setTitleTextColor(getColor(R.color.white));
 
         // Setup image
         ImageView recipeImage = findViewById(R.id.recipeImage);
@@ -40,6 +44,17 @@ public class RecipeDetailsActivity extends AppCompatActivity {
         // Setup cuisine
         TextView cuisineText = findViewById(R.id.cuisineText);
         cuisineText.setText(recipe.getCuisine());
+        // change text color to orange dark
+        cuisineText.setTextColor(getColor(R.color.orange_dark));
+        // set text to bold
+        cuisineText.setTypeface(null, Typeface.BOLD);
+
+        // Create rounded background for cuisine text
+        GradientDrawable cuisineBackground = new GradientDrawable();
+        cuisineBackground.setColor(getColor(R.color.orange_light_transparent));
+        cuisineBackground.setCornerRadius(24);
+        cuisineText.setBackground(cuisineBackground);
+        cuisineText.setPadding(24, 8, 24, 8);
 
         // Setup description
         TextView descriptionText = findViewById(R.id.descriptionText);
@@ -81,6 +96,8 @@ public class RecipeDetailsActivity extends AppCompatActivity {
             R.drawable.ic_favorite_border);
         favoriteButton.setBackgroundTintList(
             ColorStateList.valueOf(getColor(R.color.orange_primary)));
+        // Add this line to make the icon white
+        favoriteButton.setImageTintList(ColorStateList.valueOf(getColor(R.color.white)));
     }
 
     @Override

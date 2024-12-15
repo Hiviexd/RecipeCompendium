@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/nav_home"
-        android:title="Home"/>
-    <item
-        android:id="@+id/nav_favorites"
-        android:title="Favorites"/>
-    <item
-        android:id="@+id/nav_logout"
-        android:title="Logout"/>
+    <group android:id="@+id/nav_group_main">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home"/>
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite_border"
+            android:title="@string/nav_favorites"/>
+    </group>
+
+    <group android:id="@+id/nav_group_settings"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/nav_logout"/>
+    </group>
 </menu>
