@@ -1,0 +1,446 @@
+{
+    "recipes": [
+        {
+            "id": "1",
+            "name": "Pasta Carbonara",
+            "description": "Italian pasta dish with eggs and bacon",
+            "imageUrl": "carbonara.jpg",
+            "ingredients": [
+                "400g spaghetti",
+                "200g guanciale or pancetta",
+                "4 large eggs",
+                "100g Pecorino Romano",
+                "100g Parmigiano Reggiano",
+                "Black pepper"
+            ],
+            "steps": [
+                "Cook pasta in salted water",
+                "Crisp the guanciale",
+                "Mix eggs and cheese",
+                "Combine all ingredients",
+                "Add pasta water if needed"
+            ],
+            "cuisine": "Italian",
+            "isFavorite": true
+        },
+        {
+            "id": "2",
+            "name": "Chicken Curry",
+            "description": "Spicy Indian curry with tender chicken",
+            "imageUrl": "curry.jpg",
+            "ingredients": [
+                "500g chicken thighs",
+                "2 onions",
+                "4 garlic cloves",
+                "Curry powder",
+                "Coconut milk",
+                "Rice"
+            ],
+            "steps": [
+                "Cook rice separately",
+                "Sauté onions and garlic",
+                "Add chicken and spices",
+                "Pour in coconut milk",
+                "Simmer until done"
+            ],
+            "cuisine": "Indian",
+            "isFavorite": false
+        },
+        {
+            "id": "3",
+            "name": "Beef Stroganoff",
+            "description": "Creamy Russian dish with beef and mushrooms",
+            "imageUrl": "stroganoff.jpg",
+            "ingredients": [
+                "500g beef strips",
+                "1 onion",
+                "200g mushrooms",
+                "200ml sour cream",
+                "2 tbsp flour",
+                "Butter"
+            ],
+            "steps": [
+                "Sauté onions and mushrooms",
+                "Cook beef strips",
+                "Add sour cream and flour",
+                "Simmer until creamy",
+                "Serve over noodles"
+            ],
+            "cuisine": "Russian",
+            "isFavorite": true
+        },
+        {
+            "id": "4",
+            "name": "Caesar Salad",
+            "description": "Classic salad with romaine lettuce and croutons",
+            "imageUrl": "caesar.jpg",
+            "ingredients": [
+                "1 head romaine lettuce",
+                "100g croutons",
+                "50g Parmesan cheese",
+                "Caesar dressing",
+                "Grilled chicken (optional)"
+            ],
+            "steps": [
+                "Chop lettuce",
+                "Add croutons and cheese",
+                "Mix with dressing",
+                "Top with grilled chicken if desired"
+            ],
+            "cuisine": "American",
+            "isFavorite": false
+        },
+        {
+            "id": "5",
+            "name": "Miso Soup",
+            "description": "Traditional Japanese soup with tofu and seaweed",
+            "imageUrl": "miso.jpg",
+            "ingredients": [
+                "4 cups dashi",
+                "3 tbsp miso paste",
+                "100g tofu",
+                "Seaweed",
+                "Green onions"
+            ],
+            "steps": [
+                "Heat dashi",
+                "Dissolve miso paste",
+                "Add tofu and seaweed",
+                "Garnish with green onions"
+            ],
+            "cuisine": "Japanese",
+            "isFavorite": true
+        },
+        {
+            "id": "6",
+            "name": "Shakshuka",
+            "description": "Middle Eastern dish with eggs poached in tomato sauce",
+            "imageUrl": "shakshuka.jpg",
+            "ingredients": [
+                "6 eggs",
+                "1 onion",
+                "2 bell peppers",
+                "4 tomatoes",
+                "2 tsp paprika",
+                "Cilantro"
+            ],
+            "steps": [
+                "Sauté onions and peppers",
+                "Add tomatoes and spices",
+                "Simmer to thicken",
+                "Crack eggs into the sauce",
+                "Cover and cook until eggs are set"
+            ],
+            "cuisine": "Middle Eastern",
+            "isFavorite": false
+        },
+        {
+            "id": "7",
+            "name": "Tacos al Pastor",
+            "description": "Mexican tacos with marinated pork",
+            "imageUrl": "tacos.jpg",
+            "ingredients": [
+                "500g pork",
+                "2 tbsp achiote paste",
+                "Pineapple",
+                "Corn tortillas",
+                "Cilantro and onions"
+            ],
+            "steps": [
+                "Marinate pork",
+                "Grill pork with pineapple",
+                "Chop into small pieces",
+                "Serve on tortillas with cilantro and onions"
+            ],
+            "cuisine": "Mexican",
+            "isFavorite": true
+        },
+        {
+            "id": "8",
+            "name": "Vegetable Stir-fry",
+            "description": "Quick Asian stir-fry with mixed vegetables",
+            "imageUrl": "stirfry.jpg",
+            "ingredients": [
+                "1 carrot",
+                "1 bell pepper",
+                "100g broccoli",
+                "Soy sauce",
+                "Sesame oil",
+                "Ginger"
+            ],
+            "steps": [
+                "Heat oil in a wok",
+                "Add vegetables and ginger",
+                "Stir-fry until tender",
+                "Add soy sauce",
+                "Serve hot"
+            ],
+            "cuisine": "Asian",
+            "isFavorite": false
+        },
+        {
+            "id": "9",
+            "name": "Fish and Chips",
+            "description": "Classic British fried fish with chips",
+            "imageUrl": "fishandchips.jpg",
+            "ingredients": [
+                "2 cod fillets",
+                "Flour",
+                "Beer",
+                "Potatoes",
+                "Salt"
+            ],
+            "steps": [
+                "Cut and fry potatoes",
+                "Make batter with flour and beer",
+                "Coat fish and fry",
+                "Serve with chips and salt"
+            ],
+            "cuisine": "British",
+            "isFavorite": true
+        },
+        {
+            "id": "10",
+            "name": "Pad Thai",
+            "description": "Popular Thai stir-fried noodle dish",
+            "imageUrl": "padthai.jpg",
+            "ingredients": [
+                "200g rice noodles",
+                "100g shrimp",
+                "2 eggs",
+                "Bean sprouts",
+                "Peanuts",
+                "Pad Thai sauce"
+            ],
+            "steps": [
+                "Soak noodles",
+                "Sauté shrimp",
+                "Add noodles, eggs, and sauce",
+                "Mix in bean sprouts",
+                "Garnish with peanuts"
+            ],
+            "cuisine": "Thai",
+            "isFavorite": false
+        },
+        {
+            "id": "11",
+            "name": "Pho",
+            "description": "Vietnamese noodle soup with beef and herbs",
+            "imageUrl": "pho.jpg",
+            "ingredients": [
+                "500ml beef broth",
+                "200g rice noodles",
+                "100g beef slices",
+                "Bean sprouts",
+                "Basil",
+                "Lime"
+            ],
+            "steps": [
+                "Cook noodles",
+                "Heat broth",
+                "Add beef to hot broth",
+                "Serve with herbs and lime"
+            ],
+            "cuisine": "Vietnamese",
+            "isFavorite": true
+        },
+        {
+            "id": "12",
+            "name": "Margherita Pizza",
+            "description": "Simple Italian pizza with tomato, mozzarella, and basil",
+            "imageUrl": "pizza.jpg",
+            "ingredients": [
+                "Pizza dough",
+                "Tomato sauce",
+                "200g mozzarella",
+                "Fresh basil",
+                "Olive oil"
+            ],
+            "steps": [
+                "Spread sauce on dough",
+                "Add mozzarella",
+                "Bake until crispy",
+                "Top with basil and olive oil"
+            ],
+            "cuisine": "Italian",
+            "isFavorite": false
+        },
+        {
+            "id": "13",
+            "name": "Greek Salad",
+            "description": "Refreshing salad with feta cheese and olives",
+            "imageUrl": "greeksalad.jpg",
+            "ingredients": [
+                "Cucumber",
+                "Tomatoes",
+                "Red onion",
+                "Feta cheese",
+                "Olives",
+                "Olive oil"
+            ],
+            "steps": [
+                "Chop vegetables",
+                "Mix with feta and olives",
+                "Drizzle with olive oil",
+                "Serve chilled"
+            ],
+            "cuisine": "Greek",
+            "isFavorite": true
+        },
+        {
+            "id": "14",
+            "name": "Ratatouille",
+            "description": "French vegetable dish with layers of flavor",
+            "imageUrl": "ratatouille.jpg",
+            "ingredients": [
+                "1 eggplant",
+                "1 zucchini",
+                "1 bell pepper",
+                "1 onion",
+                "Tomato sauce",
+                "Herbs de Provence"
+            ],
+            "steps": [
+                "Slice vegetables",
+                "Layer with tomato sauce",
+                "Season with herbs",
+                "Bake until tender"
+            ],
+            "cuisine": "French",
+            "isFavorite": false
+        },
+        {
+            "id": "15",
+            "name": "Butter Chicken",
+            "description": "Creamy Indian curry with butter and spices",
+            "imageUrl": "butterchicken.jpg",
+            "ingredients": [
+                "500g chicken",
+                "Tomato puree",
+                "Cream",
+                "Butter",
+                "Garam masala",
+                "Rice"
+            ],
+            "steps": [
+                "Cook chicken",
+                "Make sauce with tomato and cream",
+                "Add butter and spices",
+                "Simmer with chicken",
+                "Serve with rice"
+            ],
+            "cuisine": "Indian",
+            "isFavorite": true
+        },
+        {
+            "id": "16",
+            "name": "Kimchi Fried Rice",
+            "description": "Korean stir-fried rice with kimchi",
+            "imageUrl": "kimchi.jpg",
+            "ingredients": [
+                "2 cups cooked rice",
+                "1 cup kimchi",
+                "2 eggs",
+                "Soy sauce",
+                "Sesame oil",
+                "Green onions"
+            ],
+            "steps": [
+                "Sauté kimchi",
+                "Add rice and soy sauce",
+                "Top with fried eggs",
+                "Garnish with green onions"
+            ],
+            "cuisine": "Korean",
+            "isFavorite": false
+        },
+        {
+            "id": "17",
+            "name": "Shepherd's Pie",
+            "description": "Hearty British dish with meat and mashed potatoes",
+            "imageUrl": "shepherdspie.jpg",
+            "ingredients": [
+                "500g ground lamb",
+                "2 carrots",
+                "1 onion",
+                "Mashed potatoes",
+                "Worcestershire sauce",
+                "Cheese"
+            ],
+            "steps": [
+                "Cook lamb with carrots and onion",
+                "Layer with mashed potatoes",
+                "Top with cheese",
+                "Bake until golden"
+            ],
+            "cuisine": "British",
+            "isFavorite": true
+        },
+        {
+            "id": "18",
+            "name": "Tom Yum Soup",
+            "description": "Spicy Thai soup with shrimp and lemongrass",
+            "imageUrl": "tomyum.jpg",
+            "ingredients": [
+                "4 cups chicken stock",
+                "200g shrimp",
+                "Lemongrass",
+                "Kaffir lime leaves",
+                "Chili paste",
+                "Mushrooms"
+            ],
+            "steps": [
+                "Boil stock with lemongrass",
+                "Add chili paste",
+                "Cook shrimp and mushrooms",
+                "Serve hot with lime leaves"
+            ],
+            "cuisine": "Thai",
+            "isFavorite": false
+        },
+        {
+            "id": "19",
+            "name": "Churros",
+            "description": "Sweet Spanish fried dough with cinnamon sugar",
+            "imageUrl": "churros.jpg",
+            "ingredients": [
+                "1 cup flour",
+                "1 cup water",
+                "Butter",
+                "Sugar",
+                "Cinnamon",
+                "Oil for frying"
+            ],
+            "steps": [
+                "Make dough with flour, water, and butter",
+                "Pipe into hot oil",
+                "Fry until golden",
+                "Roll in cinnamon sugar"
+            ],
+            "cuisine": "Spanish",
+            "isFavorite": true
+        },
+        {
+            "id": "20",
+            "name": "Falafel",
+            "description": "Crispy Middle Eastern chickpea fritters",
+            "imageUrl": "falafel.jpg",
+            "ingredients": [
+                "1 cup chickpeas",
+                "Parsley",
+                "Cilantro",
+                "Onion",
+                "Garlic",
+                "Spices"
+            ],
+            "steps": [
+                "Blend chickpeas with herbs and spices",
+                "Form into balls",
+                "Fry until crispy",
+                "Serve with tahini sauce"
+            ],
+            "cuisine": "Middle Eastern",
+            "isFavorite": false
+        }
+    ]
+}

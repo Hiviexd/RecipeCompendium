@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Recipe Compendium</string>
+    
+    <!-- Login Screen -->
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="error_invalid_credentials">Invalid credentials</string>
+    
+    <!-- Navigation Drawer -->
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_logout">Logout</string>
+    
+    <!-- Recipe Items -->
+    <string name="favorite_button">Toggle Favorite</string>
+</resources>
