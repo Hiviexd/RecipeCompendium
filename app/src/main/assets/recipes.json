@@ -18,7 +18,24 @@
                 "Crisp the guanciale",
                 "Mix eggs and cheese",
                 "Combine all ingredients",
-                "Add pasta water if needed"
+                "Add pasta water if needed",
+                "Heat a large skillet over medium heat",
+                "Dice guanciale into small cubes",
+                "Cook guanciale until golden and crispy",
+                "Whisk eggs with Pecorino and Parmigiano in a bowl",
+                "Season egg mixture with black pepper",
+                "Drain pasta and reserve some pasta water",
+                "Add hot pasta to the skillet with guanciale",
+                "Remove skillet from heat before adding egg mixture",
+                "Pour egg mixture over pasta, stirring quickly",
+                "Add reserved pasta water gradually to adjust consistency",
+                "Ensure the sauce is creamy and coats the pasta",
+                "Serve immediately with extra cheese on top",
+                "Use a fork and spoon to twirl pasta for serving",
+                "Pair with a crisp white wine or sparkling water",
+                "Enjoy the dish with a side of crusty bread",
+                "Store leftovers in an airtight container in the fridge",
+                "Reheat gently on low heat to avoid scrambling the eggs"
             ],
             "cuisine": "Italian",
             "isFavorite": true
@@ -183,13 +200,7 @@
             "name": "Fish and Chips",
             "description": "Classic British fried fish with chips",
             "imageUrl": "fishandchips.jpg",
-            "ingredients": [
-                "2 cod fillets",
-                "Flour",
-                "Beer",
-                "Potatoes",
-                "Salt"
-            ],
+            "ingredients": ["2 cod fillets", "Flour", "Beer", "Potatoes", "Salt"],
             "steps": [
                 "Cut and fry potatoes",
                 "Make batter with flour and beer",
@@ -425,14 +436,7 @@
             "name": "Falafel",
             "description": "Crispy Middle Eastern chickpea fritters",
             "imageUrl": "falafel.jpg",
-            "ingredients": [
-                "1 cup chickpeas",
-                "Parsley",
-                "Cilantro",
-                "Onion",
-                "Garlic",
-                "Spices"
-            ],
+            "ingredients": ["1 cup chickpeas", "Parsley", "Cilantro", "Onion", "Garlic", "Spices"],
             "steps": [
                 "Blend chickpeas with herbs and spices",
                 "Form into balls",
