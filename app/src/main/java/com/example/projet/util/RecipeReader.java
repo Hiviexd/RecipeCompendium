@@ -54,8 +54,9 @@ public class RecipeReader {
                     ingredients,
                     steps,
                     recipeObj.getString("cuisine"),
-                    recipeObj.getBoolean("isFavorite")
-
+                    recipeObj.getBoolean("isFavorite"),
+                    recipeObj.optInt("difficulty", 1),
+                    recipeObj.optInt("timeInMinutes", 30)
                 );
                 
                 recipes.add(recipe);

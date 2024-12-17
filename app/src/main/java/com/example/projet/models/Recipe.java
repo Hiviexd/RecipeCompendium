@@ -12,9 +12,12 @@ public class Recipe implements Serializable {
     private String[] steps;
     private String cuisine;
     private boolean isFavorite;
+    private int difficulty;  // 0: Easy, 1: Medium, 2: Hard
+    private int timeInMinutes;
 
     public Recipe(String id, String name, String description, String imageUrl,
-                  String[] ingredients, String[] steps, String cuisine, boolean isFavorite) {
+                  String[] ingredients, String[] steps, String cuisine, boolean isFavorite,
+                  int difficulty, int timeInMinutes) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -23,6 +26,8 @@ public class Recipe implements Serializable {
         this.steps = steps;
         this.cuisine = cuisine;
         this.isFavorite = isFavorite;
+        this.difficulty = difficulty;
+        this.timeInMinutes = timeInMinutes;
     }
 
     // Getters
@@ -58,6 +63,14 @@ public class Recipe implements Serializable {
         return isFavorite;
     }
 
+    public int getDifficulty() {
+        return difficulty;
+    }
+
+    public int getTimeInMinutes() {
+        return timeInMinutes;
+    }
+
     // Setters
     public void setId(String id) {
         this.id = id;
@@ -89,5 +102,38 @@ public class Recipe implements Serializable {
 
     public void setFavorite(boolean favorite) {
         this.isFavorite = favorite;
+    }
+
+    public void setDifficulty(int difficulty) {
+        this.difficulty = difficulty;
+    }
+
+    public void setTimeInMinutes(int timeInMinutes) {
+        this.timeInMinutes = timeInMinutes;
+    }
+
+    // Helper method to get difficulty text
+    public String getDifficultyText() {
+        switch(difficulty) {
+            case 0: return "Easy";
+            case 1: return "Medium";
+            case 2: return "Hard";
+            default: return "Unknown";
+        }
+    }
+
+    public String getDisplayTime() {
+        int minutes = this.timeInMinutes;
+        if (minutes >= 60) {
+            int hours = minutes / 60;
+            int remainingMinutes = minutes % 60;
+            if (remainingMinutes == 0) {
+                return hours + "h";
+            } else {
+                return hours + "h " + remainingMinutes + "min";
+            }
+        } else {
+            return minutes + "min";
+        }
     }
 }
