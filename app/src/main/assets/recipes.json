@@ -38,7 +38,9 @@
                 "Reheat gently on low heat to avoid scrambling the eggs"
             ],
             "cuisine": "Italian",
-            "isFavorite": true
+            "isFavorite": true,
+            "difficulty": 0,
+            "timeInMinutes": 101
         },
         {
             "id": "2",
@@ -55,13 +57,15 @@
             ],
             "steps": [
                 "Cook rice separately",
-                "Sauté onions and garlic",
+                "Saut\u00e9 onions and garlic",
                 "Add chicken and spices",
                 "Pour in coconut milk",
                 "Simmer until done"
             ],
             "cuisine": "Indian",
-            "isFavorite": false
+            "isFavorite": false,
+            "difficulty": 2,
+            "timeInMinutes": 125
         },
         {
             "id": "3",
@@ -77,14 +81,16 @@
                 "Butter"
             ],
             "steps": [
-                "Sauté onions and mushrooms",
+                "Saut\u00e9 onions and mushrooms",
                 "Cook beef strips",
                 "Add sour cream and flour",
                 "Simmer until creamy",
                 "Serve over noodles"
             ],
             "cuisine": "Russian",
-            "isFavorite": true
+            "isFavorite": true,
+            "difficulty": 1,
+            "timeInMinutes": 162
         },
         {
             "id": "4",
@@ -105,7 +111,9 @@
                 "Top with grilled chicken if desired"
             ],
             "cuisine": "American",
-            "isFavorite": false
+            "isFavorite": false,
+            "difficulty": 1,
+            "timeInMinutes": 165
         },
         {
             "id": "5",
@@ -126,7 +134,9 @@
                 "Garnish with green onions"
             ],
             "cuisine": "Japanese",
-            "isFavorite": true
+            "isFavorite": true,
+            "difficulty": 2,
+            "timeInMinutes": 93
         },
         {
             "id": "6",
@@ -142,14 +152,16 @@
                 "Cilantro"
             ],
             "steps": [
-                "Sauté onions and peppers",
+                "Saut\u00e9 onions and peppers",
                 "Add tomatoes and spices",
                 "Simmer to thicken",
                 "Crack eggs into the sauce",
                 "Cover and cook until eggs are set"
             ],
             "cuisine": "Middle Eastern",
-            "isFavorite": false
+            "isFavorite": false,
+            "difficulty": 2,
+            "timeInMinutes": 124
         },
         {
             "id": "7",
@@ -170,7 +182,9 @@
                 "Serve on tortillas with cilantro and onions"
             ],
             "cuisine": "Mexican",
-            "isFavorite": true
+            "isFavorite": true,
+            "difficulty": 2,
+            "timeInMinutes": 147
         },
         {
             "id": "8",
@@ -193,14 +207,22 @@
                 "Serve hot"
             ],
             "cuisine": "Asian",
-            "isFavorite": false
+            "isFavorite": false,
+            "difficulty": 1,
+            "timeInMinutes": 172
         },
         {
             "id": "9",
             "name": "Fish and Chips",
             "description": "Classic British fried fish with chips",
             "imageUrl": "fishandchips.jpg",
-            "ingredients": ["2 cod fillets", "Flour", "Beer", "Potatoes", "Salt"],
+            "ingredients": [
+                "2 cod fillets",
+                "Flour",
+                "Beer",
+                "Potatoes",
+                "Salt"
+            ],
             "steps": [
                 "Cut and fry potatoes",
                 "Make batter with flour and beer",
@@ -208,7 +230,9 @@
                 "Serve with chips and salt"
             ],
             "cuisine": "British",
-            "isFavorite": true
+            "isFavorite": true,
+            "difficulty": 0,
+            "timeInMinutes": 71
         },
         {
             "id": "10",
@@ -225,13 +249,15 @@
             ],
             "steps": [
                 "Soak noodles",
-                "Sauté shrimp",
+                "Saut\u00e9 shrimp",
                 "Add noodles, eggs, and sauce",
                 "Mix in bean sprouts",
                 "Garnish with peanuts"
             ],
             "cuisine": "Thai",
-            "isFavorite": false
+            "isFavorite": false,
+            "difficulty": 1,
+            "timeInMinutes": 164
         },
         {
             "id": "11",
@@ -253,7 +279,9 @@
                 "Serve with herbs and lime"
             ],
             "cuisine": "Vietnamese",
-            "isFavorite": true
+            "isFavorite": true,
+            "difficulty": 0,
+            "timeInMinutes": 57
         },
         {
             "id": "12",
@@ -274,7 +302,9 @@
                 "Top with basil and olive oil"
             ],
             "cuisine": "Italian",
-            "isFavorite": false
+            "isFavorite": false,
+            "difficulty": 1,
+            "timeInMinutes": 82
         },
         {
             "id": "13",
@@ -296,7 +326,9 @@
                 "Serve chilled"
             ],
             "cuisine": "Greek",
-            "isFavorite": true
+            "isFavorite": true,
+            "difficulty": 1,
+            "timeInMinutes": 33
         },
         {
             "id": "14",
@@ -318,7 +350,9 @@
                 "Bake until tender"
             ],
             "cuisine": "French",
-            "isFavorite": false
+            "isFavorite": false,
+            "difficulty": 2,
+            "timeInMinutes": 112
         },
         {
             "id": "15",
@@ -341,7 +375,9 @@
                 "Serve with rice"
             ],
             "cuisine": "Indian",
-            "isFavorite": true
+            "isFavorite": true,
+            "difficulty": 2,
+            "timeInMinutes": 125
         },
         {
             "id": "16",
@@ -357,13 +393,15 @@
                 "Green onions"
             ],
             "steps": [
-                "Sauté kimchi",
+                "Saut\u00e9 kimchi",
                 "Add rice and soy sauce",
                 "Top with fried eggs",
                 "Garnish with green onions"
             ],
             "cuisine": "Korean",
-            "isFavorite": false
+            "isFavorite": false,
+            "difficulty": 1,
+            "timeInMinutes": 135
         },
         {
             "id": "17",
@@ -385,7 +423,9 @@
                 "Bake until golden"
             ],
             "cuisine": "British",
-            "isFavorite": true
+            "isFavorite": true,
+            "difficulty": 0,
+            "timeInMinutes": 122
         },
         {
             "id": "18",
@@ -407,7 +447,9 @@
                 "Serve hot with lime leaves"
             ],
             "cuisine": "Thai",
-            "isFavorite": false
+            "isFavorite": false,
+            "difficulty": 0,
+            "timeInMinutes": 116
         },
         {
             "id": "19",
@@ -429,14 +471,23 @@
                 "Roll in cinnamon sugar"
             ],
             "cuisine": "Spanish",
-            "isFavorite": true
+            "isFavorite": true,
+            "difficulty": 2,
+            "timeInMinutes": 81
         },
         {
             "id": "20",
             "name": "Falafel",
             "description": "Crispy Middle Eastern chickpea fritters",
             "imageUrl": "falafel.jpg",
-            "ingredients": ["1 cup chickpeas", "Parsley", "Cilantro", "Onion", "Garlic", "Spices"],
+            "ingredients": [
+                "1 cup chickpeas",
+                "Parsley",
+                "Cilantro",
+                "Onion",
+                "Garlic",
+                "Spices"
+            ],
             "steps": [
                 "Blend chickpeas with herbs and spices",
                 "Form into balls",
@@ -444,7 +495,9 @@
                 "Serve with tahini sauce"
             ],
             "cuisine": "Middle Eastern",
-            "isFavorite": false
+            "isFavorite": false,
+            "difficulty": 2,
+            "timeInMinutes": 136
         }
     ]
 }

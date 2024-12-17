@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 import com.example.projet.R;
 import com.example.projet.models.Recipe;
+import com.google.android.material.card.MaterialCardView;
 
 public class RecipeStepsFragment extends Fragment {
     private Recipe recipe;
@@ -37,11 +38,23 @@ public class RecipeStepsFragment extends Fragment {
         LinearLayout stepsList = view.findViewById(R.id.stepsList);
         String[] steps = recipe.getSteps();
         for (int i = 0; i < steps.length; i++) {
-            TextView stepText = new TextView(getContext());
-            stepText.setText((i + 1) + ". " + steps[i]);
-            stepText.setTextSize(16);
-            stepText.setPadding(0, 4, 0, 4);
-            stepsList.addView(stepText);
+            MaterialCardView card = new MaterialCardView(getContext());
+            LinearLayout.LayoutParams cardParams = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            );
+            cardParams.setMargins(0, 0, 0, 16);
+            card.setLayoutParams(cardParams);
+            card.setRadius(8);
+            card.setCardElevation(2);
+            card.setContentPadding(16, 16, 16, 16);
+
+            TextView textView = new TextView(getContext());
+            textView.setText((i + 1) + ". " + steps[i]);
+            textView.setTextSize(18);
+            
+            card.addView(textView);
+            stepsList.addView(card);
         }
         
         return view;
