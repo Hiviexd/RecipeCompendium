@@ -23,6 +23,12 @@
             </intent-filter>
         </activity>
 
+        <!-- Signup Activity -->
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true">
+        </activity>
+
         <!-- Recipe List Activity -->
         <activity
             android:name=".RecipeListActivity"
