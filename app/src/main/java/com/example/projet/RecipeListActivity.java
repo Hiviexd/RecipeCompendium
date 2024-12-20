@@ -179,18 +179,21 @@ public class RecipeListActivity extends AppCompatActivity {
 
             // Image view for recipe image
             ImageView recipeImage = new ImageView(this);
-            LinearLayout.LayoutParams imageParams = new LinearLayout.LayoutParams(
-                120, 120
-            );
+            LinearLayout.LayoutParams imageParams = new LinearLayout.LayoutParams(120, 120);
             recipeImage.setLayoutParams(imageParams);
             recipeImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
 
+            // Add rounded corners to the image
+            GradientDrawable shape = new GradientDrawable();
+            shape.setShape(GradientDrawable.RECTANGLE);
+            shape.setCornerRadius(16); // 16dp corner radius
+            recipeImage.setBackground(shape);
+            recipeImage.setClipToOutline(true);
+
             // Get image name without extension from imageUrl
             String imageName = recipe.getImageUrl().replaceAll("\\.jpg$", "");
-
-            // Load image from drawable using the filename
             int imageResId = getResources().getIdentifier(
-                imageName,  // "carbonara" from "carbonara.jpg"
+                imageName, 
                 "drawable", 
                 getPackageName()
             );
